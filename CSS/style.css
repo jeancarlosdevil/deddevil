@@ -1,0 +1,259 @@
+body {
+    background-color: brown;
+}
+
+.topo {
+
+    background-image: url(../IMG/logo.png);
+    border: 1px solid black;
+    border-radius: 50px 50px 0 0;
+    height: 220px;
+    width: 800px;
+    background-size: cover;
+    padding-top: 50px;
+    background-color: white;
+}
+
+.meio {
+    position: relative;
+    border: 1px solid black;
+    border-radius: 0 0 50px 50px;
+    height: 800px;
+    margin-top: 5px;
+    width: 800px;
+    background-color: white;
+
+}
+
+.rodape {
+    background-color: gray;
+    position: absolute;
+    bottom: 0;
+    border: 1px solid black;
+    border-radius: 0 0 50px 50px;
+    height: 7%;
+    width: 98%;
+    margin: 5px;
+}
+
+.canto {
+    background-image: url(../IMG/capalivromestre.png);
+    background-position: center;
+    display: inline-block;
+    width: 27%;
+    height: 90%;
+    background-color: gray;
+    position: absolute;
+    right: 0;
+    margin: 7px;
+}
+
+#img1 {
+
+    position: relative;
+    right: 50%;
+}
+
+.conteudo {
+    background-image: url(../IMG/capalivrojogador.jpg);
+    background-position: center;
+    display: inline-block;
+    width: 70%;
+    height: 90%;
+    background-color: gray;
+    position: absolute;
+    left: 0;
+    margin: 7px;
+}
+
+.text {
+    position: absolute;
+    top: 25%;
+}
+
+.cont1 {
+    position: relative;
+    font-weight: bolder;
+    font-size: 40px;
+    width: 95%;
+    height: 98%;
+    border-radius: 15px;
+    border: 1px solid black;
+    background-color: rgb(206, 199, 199);
+    margin: 7px;
+    opacity: 0.5;
+}
+
+#LINKCANTO {
+    position: relative;
+    top: 25%;
+    text-decoration: none;
+    color: black;
+    background-color: white;
+    border-radius: 15px;
+    border: 1px dotted black;
+    display: block;
+    padding: 35px;
+    margin: 5px;
+}
+
+#LINKCANTO:hover {
+    background-color: brown;
+    border-radius: 15px;
+    border: 1px solid black;
+    display: block;
+    padding: 35px;
+    margin: 5px;
+}
+
+.imgcanto {
+    position: relative;
+    background: gray;
+    opacity: 0.6;
+    height: 98%;
+    width: 95%;
+    margin: 7px;
+    border-radius: 15px;
+
+}
+
+.d4 {
+    background: red;
+    display: inline-block;
+    height: 40px;
+    width: 40px;
+    border: 1px solid black;
+}
+
+.d6 {
+    background: red;
+    display: inline-block;
+    height: 40px;
+    width: 40px;
+    border: 1px solid black;
+}
+
+.d8 {
+    background: red;
+    display: inline-block;
+    height: 40px;
+    width: 40px;
+    border: 1px solid black;
+}
+
+.d10 {
+    background: red;
+    display: inline-block;
+    height: 40px;
+    width: 40px;
+    border: 1px solid black;
+}
+
+.d12 {
+    background: red;
+    display: inline-block;
+    height: 40px;
+    width: 40px;
+    border: 1px solid black;
+}
+
+.d20 {
+    background: red;
+    display: inline-block;
+    height: 40px;
+    width: 40px;
+    border: 1px solid black;
+}
+
+.dados {
+    padding: 7px;
+
+}
+
+
+.menu {
+
+    border: 1px solid black;
+    text-align: center;
+    padding: 20px;
+    margin-top: 5px;
+    width: 800px;
+    background-color: white;
+}
+
+ul {
+    text-transform: capitalize;
+    align-content: center;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+}
+
+li {
+    width: 110px;
+    margin-left: 40px;
+    padding: 0;
+    float: left;
+}
+
+a {
+    border: 1px solid red;
+    border-radius: 20px;
+    width: 110px;
+}
+
+li a,
+.btnsub,
+.btnclass,
+.btnmat {
+    background: white;
+    display: inline-block;
+    color: black;
+    padding: 14px 16px;
+    text-decoration: none;
+    text-align: center;
+}
+
+li a:hover,
+.btn1:hover .btnsub,
+.btn2:hover .btnclass,
+.btn3:hover .btnmat {
+    background: red;
+}
+
+
+
+.conteudosub,
+.conteudobtnclass,
+.contbtnmat {
+    border-radius: 20px;
+    z-index: 999;
+    display: none;
+    position: absolute;
+    width: 110px;
+}
+
+.conteudosub a,
+.conteudobtnclass a,
+.contbtnmat a {
+    text-transform: capitalize;
+    border-radius: 20px;
+    color: black;
+    display: block;
+    text-align: left;
+    margin: 2px;
+    border: 1px solid red;
+}
+
+.conteudosub a:hover,
+.conteudobtnclass a:hover,
+.contbtnmat a:hover {
+    color: white;
+}
+
+.btn1:hover .conteudosub,
+.btn2:hover .conteudobtnclass,
+.btn3:hover .contbtnmat {
+    display: block;
+}

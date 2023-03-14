@@ -1,0 +1,372 @@
+body {
+    background-color: brown;
+}
+
+/* nao mecher no topo */
+.topo {
+
+    background-image: url(../IMG/logo.png);
+    border: 1px solid black;
+    border-radius: 50px 50px 0 0;
+    height: 220px;
+    width: 800px;
+    background-size: cover;
+    padding-top: 50px;
+    background-color: white;
+}
+
+/* nao mecher no link */
+a {
+    text-decoration: none;
+    padding: 15PX;
+
+}
+
+/* nao mecher em botao e botao hover */
+button {
+    text-decoration: none;
+    align-items: center;
+    border: 1px solid gray;
+    border-radius: 15px;
+    height: 45px;
+    width: 100px;
+    cursor: pointer;
+}
+
+button:hover {
+    font-style: oblique;
+    background-color: rgb(243, 58, 58);
+    align-items: center;
+    border: 1px solid gray;
+    border-radius: 48px;
+    height: 40px;
+    width: 100px;
+    cursor: pointer;
+    transform: translate(0px, 8px);
+}
+
+.meio {
+    position: relative;
+    border-radius: 0 0 50px 50px;
+    height: 800px;
+    margin-top: 5px;
+    width: 800px;
+    background-color: white;
+
+}
+
+/* nao mecher no rodape */
+.rodape {
+    background-color: gray;
+    position: absolute;
+    bottom: 0;
+    border: 1px solid black;
+    border-radius: 0 0 50px 50px;
+    height: 7%;
+    width: 98%;
+    margin: 5px;
+}
+
+
+
+.conteudo {
+    width: 98%;
+    height: 90%;
+    margin: 5px;
+
+}
+
+/* nao mecher nos dados  */
+
+.d4 {
+    background-color: black;
+    display: inline-block;
+    height: 40px;
+    width: 40px;
+    border: 1px solid black;
+}
+
+.d6 {
+    background: red;
+    display: inline-block;
+    height: 40px;
+    width: 40px;
+    border: 1px solid black;
+}
+
+.d8 {
+    background: red;
+    display: inline-block;
+    height: 40px;
+    width: 40px;
+    border: 1px solid black;
+}
+
+.d10 {
+    background: red;
+    display: inline-block;
+    height: 40px;
+    width: 40px;
+    border: 1px solid black;
+}
+
+.d12 {
+    background: red;
+    display: inline-block;
+    height: 40px;
+    width: 40px;
+    border: 1px solid black;
+}
+
+.d20 {
+    background: red;
+    display: inline-block;
+    height: 40px;
+    width: 40px;
+    border: 1px solid black;
+}
+
+.dados {
+    padding: 7px;
+
+}
+
+p {
+    display: inline;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: larger;
+}
+
+.nome {
+    margin: 15px;
+}
+
+.sexo {
+    margin: 15px;
+}
+
+.racas {
+    margin: 15px;
+}
+
+.classes {
+    margin: 15px;
+}
+
+.tamanho {
+    border-radius: 15px;
+
+    width: 200px;
+    height: 30px;
+}
+
+.finalizar {
+    display: inline-block;
+    height: 40px;
+    width: 500px;
+    position: relative;
+    top: -5px;
+    color: black;
+}
+
+.finalizar:hover {
+    display: inline-block;
+    height: 40px;
+    width: 500px;
+    position: relative;
+
+    background-color: brown;
+    color: white;
+}
+
+.finalizar2 {
+    margin: 10px;
+    display: inline-block;
+    height: 40px;
+    width: 500px;
+    position: relative;
+    top: -5px;
+    color: black;
+}
+
+.finalizar2:hover {
+    display: inline-block;
+    height: 40px;
+    width: 500px;
+    position: relative;
+
+    background-color: brown;
+    color: white;
+}
+
+.formulario {
+    background: linear-gradient(135deg, white, black);
+    backdrop-filter: blur(21px);
+    -webkit-backdrop-filter: blur(21px);
+    box-shadow: 0 8px 32px 0 black;
+    border: 1px solid brown;
+    border-radius: 15px;
+    display: inline-block;
+    width: 300px;
+    height: 500px;
+    border: 1px solid black;
+    position: relative;
+    right: 20px;
+    top: 20px;
+}
+
+.formulario2 {
+    background: linear-gradient(250deg, white, black);
+    backdrop-filter: blur(21px);
+    -webkit-backdrop-filter: blur(21px);
+    box-shadow: 0 8px 32px 0 black;
+    border: 1px solid brown;
+    border-radius: 15px;
+    display: inline-block;
+    width: 300px;
+    height: 500px;
+    border: 1px solid black;
+    position: relative;
+    top: 20px;
+}
+
+.for {
+    margin: 5px;
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    border-radius: 15px;
+}
+
+.dex {
+    margin: 5px;
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    border-radius: 15px;
+}
+
+.con {
+    margin: 5px;
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    border-radius: 15px;
+}
+
+.int {
+    margin: 5px;
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    border-radius: 15px;
+}
+
+.sab {
+    margin: 5px;
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    border-radius: 15px;
+}
+
+.car {
+    margin: 5px;
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    border-radius: 15px;
+}
+
+.hab {
+    display: inline-block;
+    position: relative;
+    right: center;
+}
+
+.menu {
+
+    border: 1px solid black;
+    text-align: center;
+    padding: 20px;
+    margin-top: 5px;
+    width: 800px;
+    background-color: white;
+}
+
+ul {
+    text-transform: capitalize;
+    align-content: center;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+}
+
+li {
+    width: 110px;
+    margin-left: 40px;
+    padding: 0;
+    float: left;
+}
+
+a {
+    border: 1px solid red;
+    border-radius: 20px;
+    width: 110px;
+}
+
+li a,
+.btnsub,
+.btnclass,
+.btnmat {
+    background: white;
+    display: inline-block;
+    color: black;
+    padding: 14px 16px;
+    text-decoration: none;
+    text-align: center;
+}
+
+li a:hover,
+.btn1:hover .btnsub,
+.btn2:hover .btnclass,
+.btn3:hover .btnmat {
+    background: red;
+}
+
+
+
+.conteudosub,
+.conteudobtnclass,
+.contbtnmat {
+    border-radius: 20px;
+    z-index: 999;
+    display: none;
+    position: absolute;
+    width: 110px;
+}
+
+.conteudosub a,
+.conteudobtnclass a,
+.contbtnmat a {
+    text-transform: capitalize;
+    border-radius: 20px;
+    color: black;
+    display: block;
+    text-align: left;
+    margin: 2px;
+    border: 1px solid red;
+}
+
+.conteudosub a:hover,
+.conteudobtnclass a:hover,
+.contbtnmat a:hover {
+    color: white;
+}
+
+.btn1:hover .conteudosub,
+.btn2:hover .conteudobtnclass,
+.btn3:hover .contbtnmat {
+    display: block;
+}
